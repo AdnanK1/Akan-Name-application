@@ -3,3 +3,16 @@
   background-size: cover;
   background-attachment: fixed;
 }
+h2{
+  text-align: center;
+}
+.form{
+  text-align: left;
+}
+.content{
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  color: #444;
+  margin: 0 auto;
+}
