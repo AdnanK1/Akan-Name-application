@@ -1,4 +1,5 @@
 .bg{
-  background-image: url("../pics/elephants.jpg");
-  background-size: scale-down;
+  background-image: url("../pics/tree.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
