@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Akan Name Finder</title>
+  <<meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -14,15 +15,18 @@
   </div>
   <div class="container">
     <div class="content">
-      <form class="form" action="index.html" method="post">
-         Enter Birthday: <input type="date" name="birthday" ><br><br>
-         Which Gender are you in?:<br><br>
+      <form class="form" action="index.html">
+         Enter Birthday: <input type="date" name="birthday" id="dateValue"><br><br>
+        <p id="ghana"> Which Gender are you in?:</p><br>
          Male: <input type="radio" name="gender" value="male"><br><br>
          Female: <input type="radio" name="gender" value="female"><br><br>
-        <input type="submit" name="submit" value="Submit">
+         <input type="submit" id="marker" name="submit" onclick="callingName()">
       </form>
 
   </div >
   </div>
+  <script type="text/javascript" src="js/script.js">
+
+  </script>
 </body>
 </html>

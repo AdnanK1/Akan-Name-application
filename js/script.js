@@ -1,4 +1,12 @@
-var dayTime = function day() {
-  var birthday = new Date ((document.getElementById("birthday").value));
-  console.log(birthday.getMonth());
+document.getElementById("marker").addEventListener("click", function(event){
+  event.preventDefault()
+});
+function callingName(){
+  var dayTime = document.getElementById("dateValue").valueAsDate;
+  var date = dayTime.getDate();
+  var month = dayTime.getMonth() + 1;
+  var year = dayTime.getFullYear();
+  var dateArray= [date];
+  console.log(dateArray);
+
 }

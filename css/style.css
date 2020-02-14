@@ -4,7 +4,7 @@
   background-attachment: fixed;
 }
 .jumbotron{
-  color: white;
+  color: #1afe08;
 }
 .background{
   background-image: url("../pics/promo.jpg");
@@ -16,7 +16,7 @@ h2{
 }
 .form{
   text-align: left;
-  color: white;
+  color:  #1afe08;
 }
 .form input[type = "date"]{
   border: 0;
@@ -53,9 +53,12 @@ h2{
   background: green;
   color: black;
 }
+.p{
+  color: green;
+}
 .content{
   width: 400px;
-  padding: 20px;
+  padding: 15px;
   color: #444;
   margin: 0 auto;
   border-style: dashed;
