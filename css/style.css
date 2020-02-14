@@ -18,6 +18,10 @@ h2{
   text-align: left;
   color:  #1afe08;
 }
+.ghanian{
+  color: white;
+  text-align: center;
+}
 .form input[type = "date"]{
   border: 0;
   background: none;
