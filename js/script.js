@@ -14,27 +14,27 @@ function callingName(){
   var birthD = new Date(date +'/'+month+'/'+year);
     var myDay = birthD.getDay()
 
-    if (myDay == 0)
+    if (myDay == 1)
     {
         Day = "Sunday";
     }
-    else if (myDay == 1)
+    else if (myDay == 2)
     {
         Day = "Monday";
     }
-    else if (myDay == 2)
+    else if (myDay == 3)
     {
         Day = "Tuesday";
     }
-    else if (myDay == 3)
+    else if (myDay == 4)
     {
         Day = "Wednesday";
     }
-    else if (myDay == 4)
+    else if (myDay == 5)
     {
         Day = "Thursday";
     }
-    else if (myDay == 5)
+    else if (myDay == 6)
     {
         Day = "Friday";
     }
