@@ -22,7 +22,7 @@ h2{
   color: white;
   text-align: center;
 }
-.form input[type = "date"]{
+.form input[type = "text"]{
   border: 0;
   background: none;
   display: block;
@@ -35,6 +35,8 @@ h2{
   border-radius: 24px;
   color: white;
   transition: 0.25s;
+  background-color: white;
+  color: black;
 }
 .form input[type = "date"]:focus{
   width: 220px;
