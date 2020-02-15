@@ -37,8 +37,12 @@ h2{
   transition: 0.25s;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
-.form input[type = "date"]:focus{
+.form input[type = "text"]:hover{
+  width:200px;
+}
+.form input[type = "text"]:focus{
   width: 220px;
 }
 .form input[type = "submit"]{
