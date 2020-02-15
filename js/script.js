@@ -2,18 +2,17 @@ document.getElementById("marker").addEventListener("click", function(event){
   event.preventDefault()
 });
 function callingName(){
-  var date = document.getElementById("DD").value;
-  var year = document.getElementById("YY").value;
-  var month = document.getElementById("MM").value;
+  var date = parseInt(document.getElementById("DD").value);
+  var year = parseInt(document.getElementById("YY").value);
+  var month = parseInt(document.getElementById("MM").value);
   var male = document.getElementById("male").value;
   var female = document.getElementById("female").value;
   var malenames = ["Kwasi","Kwadwo","Kwadena","Kwaku","Yaw","Kofi","Kwame"]
   var femalenames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
-  //using an inbuilt function
-  var birth = new Date(month+'/'+date'/'+year);
+  var birth = new Date(month+'/'+date+'/'+year);
   var myDay = birth.getDay()
-
+  console.log(myDay);
   if (myDay == 0)
   {
       Day = "Sunday";
@@ -43,10 +42,10 @@ function callingName(){
       Day = "Saturday";
   }
 
-  if(DD<0 || DD>31){
+  if(date<0 || date>31){
     alert("Please Enter a valid day")
   }
-  if(MM<0 || MM>12){
+  if(month<0 || month>12){
     alert("Please Enter a valid Month")
   }
   if(YY)
