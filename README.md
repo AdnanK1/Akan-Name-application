@@ -17,5 +17,4 @@ The Technologies used in making the project are:
 Any query need to be answered concerning to the project should be directed to this email: *adnangitonga@gmail.com*
 
 ### License
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-Copyright (c) 2020 Adnan Kibe (adnangitonga@gmail.com)
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>. Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
